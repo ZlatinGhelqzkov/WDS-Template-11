@@ -1,0 +1,21 @@
+p{
+    font-size: 1.6rem;
+    color: var(--accent-color-fourth);
+    font-family: var(--open-sans);
+}
+
+.subtitle--intro{
+    font-size: 2.7rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: var(--light);
+    font-family: var(--poppins);
+}
+
+.footer-newsletter-moto{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    font-family: var(--open-sans);
+    margin-bottom: 1.5rem;
+}

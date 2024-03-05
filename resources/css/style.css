@@ -1,0 +1,73 @@
+/*##############################
+############ RESET #############
+##############################*/
+@import url(/resources/css/reset.css);
+
+
+
+/*##############################
+########## TYPOGRAPHY ##########
+##############################*/
+@import url(/resources/css/typograpghy/headings.css);
+@import url(/resources/css/typograpghy/links.css);
+@import url(/resources/css/typograpghy/paragraphs.css);
+
+
+
+/*##############################
+########## COMPONENTS ##########
+##############################*/
+@import url(/resources/css/components/grid.css);
+@import url(/resources/css/components/bg.css);
+@import url(/resources/css/components/button.css);
+
+
+
+/*##############################
+########## SECTIONS ##########
+##############################*/
+@import url(/resources/css/sections/header.css);
+@import url(/resources/css/sections/intro.css);
+@import url(/resources/css/sections/mission.css);
+@import url(/resources/css/sections/testimonials.css);
+@import url(/resources/css/sections/blog.css);
+@import url(/resources/css/sections/footer.css);
+
+
+:root{
+    --gap: 30px;
+
+    /*###################
+    ###### COLORS #######
+    ##################*/
+    --footer-background-color: #69ccba;
+    --primary-color: #4fc3ae;
+    --accent-color: rgba(255,255,255,0.25);
+    --accent-color-second: rgba(255, 255, 255, 0.4);
+    --accent-color-third: rgba(255,255,255,0.15);
+    --accent-color-fourth: rgb(109, 110, 113);
+
+
+
+    /*###################
+    ### FONT FAMILIES ###
+    ##################*/
+    --lato: 'Lato', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+
+
+
+    /*###################
+    ### FONT WEIGHTS ###
+    ##################*/
+    --extra-light: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semi-bold: 600;
+    --bold: 700;
+    --black: 900;
+}
+
+

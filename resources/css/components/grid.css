@@ -1,0 +1,26 @@
+.wrapper{
+    max-width: 98rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+@media(min-width: 1200px){
+    .wrapper{
+        padding: 0;
+    }
+}
+
+
+@media(min-width: 768px){
+    .col-3{
+        flex: 0 0 calc(33.333% - 3rem);
+    }
+}
+
+.spacing--mission{
+    padding: 10rem 0;
+}
+
+.spacing--testimonials{
+    padding: 10rem 0 8rem 0;
+}
